@@ -4,6 +4,13 @@ const nodeExternals = require('webpack-node-externals');
 module.exports = {
   mode: 'universal',
 
+  env: {
+    baseUrl: process.env.BASE_URL || 'http://localhost:3000/argon-demo/landing'
+  },
+
+  router: {
+    base: '/'
+  },
   /*
    ** Headers of the page
    */

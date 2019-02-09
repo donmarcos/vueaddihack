@@ -19,7 +19,10 @@
               <div class="col-lg-3 order-lg-2">
                 <div class="card-profile-image">
                   <a href="#">
-                    <img v-lazy="'/argon/img/theme/team-4-800x800.jpg'" class="rounded-circle">
+                    <img
+                      v-lazy="'/argon/img/theme/gonzalez185x200_dist1.jpg'"
+                      class="rounded-circle"
+                    >
                   </a>
                 </div>
               </div>
@@ -33,11 +36,15 @@
                 <div class="card-profile-stats d-flex justify-content-center">
                   <div>
                     <span class="heading">22</span>
-                    <span class="description">Friends</span>
+                    <span class="description">Meetings</span>
                   </div>
                   <div>
                     <span class="heading">10</span>
-                    <span class="description">Photos</span>
+                    <span class="description">Voting Yes</span>
+                  </div>
+                  <div>
+                    <span class="heading">20</span>
+                    <span class="description">Voting No</span>
                   </div>
                   <div>
                     <span class="heading">89</span>
@@ -48,19 +55,20 @@
             </div>
             <div class="text-center mt-5">
               <h3>
-                Jessica Jones
+                Lena Gonzalez
                 <span class="font-weight-light">, 27</span>
               </h3>
               <div class="h6 font-weight-300">
-                <i class="ni location_pin mr-2"></i>Bucharest, Romania
+                <i class="ni location_pin mr-2"></i>Distric #1
               </div>
               <div class="h6 mt-4">
-                <i class="ni business_briefcase-24 mr-2"></i>Solution Manager - Creative Tim Officer
+                <i class="ni business_briefcase-24 mr-2"></i>Email: elected@longbeach.gov
               </div>
               <div>
-                <i class="ni education_hat mr-2"></i>University of Computer Science
+                <i class="ni education_hat mr-2"></i>Phone: 562 - 345 - 6789
               </div>
             </div>
+            <!--
             <div class="mt-5 py-5 border-top text-center">
               <div class="row justify-content-center">
                 <div class="col-lg-9">
@@ -69,6 +77,7 @@
                 </div>
               </div>
             </div>
+            -->
           </div>
         </card>
       </div>

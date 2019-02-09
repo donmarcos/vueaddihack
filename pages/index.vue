@@ -1,4 +1,5 @@
 <template>
+  <!--
   <section class="container">
     <div>
       <logo/>
@@ -13,6 +14,7 @@
       </div>
     </div>
   </section>
+  -->
 </template>
 
 <script>
@@ -21,6 +23,9 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  beforeCreate() {
+    this.$nuxt.$router.replace({ path: '/argon-demo/landing' })
   }
 }
 </script>
