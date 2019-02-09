@@ -1,10 +1,10 @@
 # vue-argon-design-system-nuxt
 
-> Vue Argon Design System for Nuxt
+> Vue ACT Long Beach addihackathon Nuxt
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install
 
