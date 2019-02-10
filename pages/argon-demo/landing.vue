@@ -25,13 +25,14 @@
                   </h1>
                   <p class="lead text-white">Take action and make your elected official accountable</p>
                   <div class="btn-wrapper">
-                    <base-button
-                      tag="a"
-                      href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"
-                      class="mb-3 mb-sm-0"
-                      type="info"
-                      icon="fa fa-code"
-                    >Join Us</base-button>
+                    <nuxt-link :to="{name: 'argon-demo-register'}">
+                      <base-button
+                        tag="a"
+                        class="mb-3 mb-sm-0"
+                        type="info"
+                        icon="fa fa-code"
+                      >Join Us</base-button>
+                    </nuxt-link>
                   </div>
                 </div>
               </div>
