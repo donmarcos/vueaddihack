@@ -17,10 +17,10 @@
             <nuxt-link :to="{name: 'argon-demo-login'}">Login</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link :to="{name: 'argon-demo-aboutus'}">About Us</nuxt-link>
+            <nuxt-link :to="{name: 'argon-demo-lbaboutus'}">About Us</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link :to="{name: 'argon-demo-contact'}">Contact</nuxt-link>
+            <nuxt-link :to="{name: 'argon-demo-lbcontact'}">Contact</nuxt-link>
           </li>
         </ul>
 

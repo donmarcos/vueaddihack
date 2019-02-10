@@ -39,7 +39,7 @@
     </section>
     <section class="section section-skew">
       <div class="container">
-        <card shadow class="card-profile mt--400" no-body>
+        <card shadow class="card-profile mt--450" no-body>
           <div class="px-4">
             <div class="row justify-content-center">
               <div class="col-lg-3 order-lg-2">

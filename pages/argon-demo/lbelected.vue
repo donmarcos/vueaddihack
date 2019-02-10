@@ -1,5 +1,28 @@
 <template>
   <div class="profile-page">
+    <modal :show.sync="modal0">
+      <template slot="header">
+        <h5 class="modal-title" id="contactModalLabel">Voice Call to Lena</h5>
+      </template>
+      <div>Voice Mail ....
+        <p></p>Vote Yes on this Agenda Item 999999
+      </div>
+      <template slot="footer">
+        <base-button type="secondary" @click="modal0 = false">Close</base-button>
+      </template>
+    </modal>
+
+    <modal :show.sync="modal1">
+      <template slot="header">
+        <h5 class="modal-title" id="contactModalLabel">TEXT Lena</h5>
+      </template>
+      <div>TEXT.....
+        <p></p>Vote Yes on this Agenda Item 999999
+      </div>
+      <template slot="footer">
+        <base-button type="secondary" @click="modal1 = false">Close</base-button>
+      </template>
+    </modal>x
     <section class="section-profile-cover section-shaped my-0">
       <div class="shape shape-style-1 shape-primary shape-skew alpha-4">
         <span></span>
@@ -28,8 +51,13 @@
               </div>
               <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
                 <div class="card-profile-actions py-4 mt-lg-0">
-                  <base-button type="info" size="sm" class="mr-4">Connect</base-button>
-                  <base-button type="default" size="sm" class="float-right">Message</base-button>
+                  <base-button type="info" size="sm" class="mr-4" @click="modal0 = true">Connect</base-button>
+                  <base-button
+                    type="default"
+                    size="sm"
+                    class="float-right"
+                    @click="modal1 = true"
+                  >Message</base-button>
                 </div>
               </div>
               <div class="col-lg-4 order-lg-1">
@@ -85,8 +113,19 @@
   </div>
 </template>
 <script>
+import Modal from '~/components/argon/Modal'
+
 export default {
-  layout: 'argon-demo'
+  layout: 'argon-demo',
+  components: {
+    Modal
+  },
+  data() {
+    return {
+      modal0: false,
+      modal1: false
+    }
+  }
 }
 </script>
 <style>
