@@ -1,6 +1,6 @@
 # Act Long Beach
 
-# Stack vue-argon-design-system-nuxt
+# Stack vue-argon-design-system-nuxt-Twilio-GoogleSheets
 
 > Vue ACT Long Beach addihackathon Nuxt
 
